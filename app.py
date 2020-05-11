@@ -2,6 +2,8 @@ from twitter import Twitter
 import time
 from media import Media
 
+#test
+
 tw = Twitter()
 media = Media()
 def start() :
