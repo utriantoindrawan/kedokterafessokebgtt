@@ -17,7 +17,7 @@ def start():
 
                 if len(message) is not 0 and len(message) < 200:
                     if "dokfess!" in message:
-                        message = message.replace("dokfess!", "")
+                        message = message.replace("dokfess!", "dokfess!")
                         if len(message) is not 0:
                             print("DM will be posted")
                             tw.post_tweet_text_only(message)
