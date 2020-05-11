@@ -31,7 +31,7 @@ def start():
                 if len(message) is not 0 and len(message) < 200:
                     if "https://" not in message and "http://" not in message:
                         if "kedokteranfess" in message:
-                            message = message.replace("kedokteranfess", "")
+                            message = message.replace("kedokteranfess", "dokfess!")
                             screen_name = tw.get_user_screen_name(sender_id)
                             media.download_image()
                             media.process_image(message, screen_name)
