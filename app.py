@@ -17,7 +17,7 @@ def start() :
                 sender_id = dms[i]['sender_id']
                 id = dms[i]['id']
 
-                if len(message) is not 0 and len(message) < 200:
+                if len(message) is not 0 and len(message) < 280:
                     if "dokfess!" in message:
                         message = message.replace("dokfess!", "dokfess!")
                         if len(message) is not 0:
