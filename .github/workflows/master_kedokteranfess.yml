@@ -31,4 +31,4 @@ jobs:
       with:
         app-name: 'kedokteranfess'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_fba0a537a4894c38ac04dc64d092815e }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_a5aa9051287d4cce98a7e4d6aaa98a30 }}
